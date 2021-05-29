@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Temperature Converter</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+<h1>Temperature Converter</h1>
+<div id="converter">
+	<label for="degrees">Degrees</label>
+	<input type="number" id="degrees">
+	<label for="type">Type</label>
+	<select id="type">
+		<option value="CtoF">Celsius to Fahrenheit</option>
+    <option value="CtoK">Celsius to Kelvin</option>
+    <option value="CtoR">Celsius to Réaumur</option>
+		<option value="FtoC">Fahrenheit to Celsius</option>
+		<option value="FtoK">Fahrenheit to kelvin</option>
+    <option value="FtoR">Fahrenheit to Réaumur</option>
+    <option value="KtoC">Kelvin to Celsius</option>
+		<option value="KtoF">Kelvin to Fahrenheit</option>
+    <option value="KtoR">Kelvin to Réaumur</option>
+    <option value="RtoC">Réaumur to Celsius</option>
+		<option value="RtoF">Réaumur to Fahrenheit</option>
+    <option value="RtoK">Réaumur to Kelvin</option>
+	</select>
+	<button id="convert" onclick="convert()">Convert</button>
+	<label id="resultlabel"><b>Result:</h2>
+  
+		<h2 id="result"></h2>
+
+
+  <script src="script.js"></script>
+  </body>
+</html>
